@@ -23,8 +23,3 @@ cd bluealsa
 sudo autoreconf --install
 sudo mkdir build && cd build
 sudo ../configure --enable-aac --enable-debug
-
-
-NON serve
-sudo apt-get install dh-autoreconf
-sudo apt-get install libasound2-dev
