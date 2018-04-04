@@ -26,6 +26,23 @@ sudo ../configure --enable-debug
 
 sudo make && make install
 
-
 sudo killall bluealsa
+sudo nano ~/.asoundrc
+defaults.bluealsa.interface "hci0"
+defaults.bluealsa.device "00:21:98:00:05:B4"
+defaults.bluealsa.profile "a2dp"
+defaults.bluealsa.delay 10000
+
 sudo bluealsa
+
+altro terminale
+bluetoothctl
+ping 00:21:98:00:05:B4
+trust 00:21:98:00:05:B4
+connect 00:21:98:00:05:B4
+
+altro terminale
+
+cd ~
+
+/usr/share/sounds/alsa/Noise.wav
