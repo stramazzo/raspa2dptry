@@ -27,6 +27,5 @@ sudo ../configure --enable-debug
 sudo make && make install
 
 
-NON serve
-sudo apt-get install dh-autoreconf
-sudo apt-get install libasound2-dev
+sudo killall bluealsa
+sudo bluealsa
