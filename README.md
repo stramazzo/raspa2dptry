@@ -44,5 +44,5 @@ connect 00:21:98:00:05:B4
 altro terminale
 
 cd ~
-
-/usr/share/sounds/alsa/Noise.wav
+aplay /usr/share/sounds/alsa/Noise.wav
+aplay -D bluealsa:HCI=hci0,DEV=00:21:98:00:05:B4,PROFILE=a2dp /usr/share/sounds/alsa/Noise.wav
