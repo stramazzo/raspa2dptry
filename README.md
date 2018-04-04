@@ -12,8 +12,13 @@ sudo apt-get upgrade
 
 sudo apt-get build-dep bluealsa
 
+
+
+
+
+
+
 sudo apt-get install dh-autoreconf
-sudo apt-get build-dep bluealsa
 
 sudo apt-get install libasound2-dev
 sudo git clone https://github.com/raspberrypi-ui/bluealsa
