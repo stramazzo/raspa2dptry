@@ -1,11 +1,16 @@
 # raspa2dptry
 raspa2dptry
 
-sudo nano /etc/apt/source.list
+sudo nano /etc/apt/sources.list
+uncomment #deb-src -> deb-src
+
+sudo nano /etc/apt/sources.list.d/raspi.list
 uncomment #deb-src -> deb-src
 
 sudo apt-get update
 sudo apt-get upgrade
+
+sudo apt-get build-dep bluealsa
 
 sudo apt-get install dh-autoreconf
 sudo apt-get build-dep bluealsa
