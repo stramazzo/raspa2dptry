@@ -1,6 +1,8 @@
 # raspa2dptry
 raspa2dptry
 
+Raspbian 2018 03 13 Fresh install
+
 sudo nano /etc/apt/sources.list
 uncomment #deb-src -> deb-src
 
